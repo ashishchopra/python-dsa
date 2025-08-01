@@ -7,6 +7,7 @@ class Node:
     def __str__(self) -> str:
         return str(self.data)
 
+
 class LinkedList:
     def __init__(self):
         self.head = None
